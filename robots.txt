@@ -1,0 +1,46 @@
+# Private birthday gift. Not for indexing, crawling, or archiving.
+
+User-agent: *
+Disallow: /
+
+# Internet Archive / Wayback Machine
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: Wayback
+Disallow: /
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+
+# Other archivers and mirrors
+User-agent: archive.today
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+# AI / LLM crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
